@@ -1,0 +1,76 @@
+traceID,spanID,flags,operationName,references,startTime,startTimeMillis,duration,tags,logs,process
+42103e90dcb36d1b7bdeca83226bcec5,2cda26ef6fbabae0,1.0,hipstershop.ProductCatalogService/GetProduct,"[{'refType': 'CHILD_OF', 'spanID': '092a94fdf9e95a39', 'traceID': '42103e90dcb36d1b7bdeca83226bcec5'}]",1745942430013386,1745942430013,16065,"[{'key': 'rpc.system', 'type': 'string', 'value': 'grpc'}
+ {'key': 'rpc.service', 'type': 'string', 'value': 'hipstershop.ProductCatalogService'}
+ {'key': 'rpc.method', 'type': 'string', 'value': 'GetProduct'}
+ {'key': 'net.peer.ip', 'type': 'string', 'value': 'productcatalogservice'}
+ {'key': 'net.peer.port', 'type': 'string', 'value': '3550'}
+ {'key': 'instrumentation.name', 'type': 'string', 'value': 'go.opentelemetry.io/otel/sdk/tracer'}
+ {'key': 'status.code', 'type': 'int64', 'value': '0'}
+ {'key': 'status.message', 'type': 'string', 'value': ''}
+ {'key': 'span.kind', 'type': 'string', 'value': 'client'}
+ {'key': 'internal.span.format', 'type': 'string', 'value': 'jaeger'}]","[{'fields': array([{'key': 'message.type', 'type': 'string', 'value': 'SENT'},
+        {'key': 'message.id', 'type': 'int64', 'value': '1'},
+        {'key': 'message.uncompressed_size', 'type': 'int64', 'value': '12'},
+        {'key': 'name', 'type': 'string', 'value': 'message'}],
+       dtype=object), 'timestamp': 1748966430013434}
+ {'fields': array([{'key': 'message.type', 'type': 'string', 'value': 'RECEIVED'},
+        {'key': 'message.id', 'type': 'int64', 'value': '1'},
+        {'key': 'message.uncompressed_size', 'type': 'int64', 'value': '186'},
+        {'key': 'name', 'type': 'string', 'value': 'message'}],
+       dtype=object), 'timestamp': 1748966430029443}                              ]","{'serviceName': 'frontend', 'tags': array([{'key': 'exporter', 'type': 'string', 'value': 'jaeger'},
+       {'key': 'float', 'type': 'float64', 'value': '312.23'},
+       {'key': 'ip', 'type': 'string', 'value': '10.233.85.112'},
+       {'key': 'name', 'type': 'string', 'value': 'frontend-1'},
+       {'key': 'node_name', 'type': 'string', 'value': 'aiops-k8s-07'},
+       {'key': 'namespace', 'type': 'string', 'value': 'hipstershop'}],
+      dtype=object)}"
+42103e90dcb36d1b7bdeca83226bcec5,f0ce84c57788de24,1.0,hipstershop.CurrencyService/Convert,"[{'refType': 'CHILD_OF', 'spanID': '092a94fdf9e95a39', 'traceID': '42103e90dcb36d1b7bdeca83226bcec5'}]",1745942430037606,1745942430037,2923,"[{'key': 'rpc.system', 'type': 'string', 'value': 'grpc'}
+ {'key': 'rpc.service', 'type': 'string', 'value': 'hipstershop.CurrencyService'}
+ {'key': 'rpc.method', 'type': 'string', 'value': 'Convert'}
+ {'key': 'net.peer.ip', 'type': 'string', 'value': 'currencyservice'}
+ {'key': 'net.peer.port', 'type': 'string', 'value': '7000'}
+ {'key': 'instrumentation.name', 'type': 'string', 'value': 'go.opentelemetry.io/otel/sdk/tracer'}
+ {'key': 'status.code', 'type': 'int64', 'value': '0'}
+ {'key': 'status.message', 'type': 'string', 'value': ''}
+ {'key': 'span.kind', 'type': 'string', 'value': 'client'}
+ {'key': 'internal.span.format', 'type': 'string', 'value': 'jaeger'}]","[{'fields': array([{'key': 'message.type', 'type': 'string', 'value': 'SENT'},
+        {'key': 'message.id', 'type': 'int64', 'value': '1'},
+        {'key': 'message.uncompressed_size', 'type': 'int64', 'value': '20'},
+        {'key': 'name', 'type': 'string', 'value': 'message'}],
+       dtype=object), 'timestamp': 1748966430037655}
+ {'fields': array([{'key': 'message.type', 'type': 'string', 'value': 'RECEIVED'},
+        {'key': 'message.id', 'type': 'int64', 'value': '1'},
+        {'key': 'message.uncompressed_size', 'type': 'int64', 'value': '13'},
+        {'key': 'name', 'type': 'string', 'value': 'message'}],
+       dtype=object), 'timestamp': 1748966430040518}                              ]","{'serviceName': 'frontend', 'tags': array([{'key': 'exporter', 'type': 'string', 'value': 'jaeger'},
+       {'key': 'float', 'type': 'float64', 'value': '312.23'},
+       {'key': 'ip', 'type': 'string', 'value': '10.233.85.112'},
+       {'key': 'name', 'type': 'string', 'value': 'frontend-1'},
+       {'key': 'node_name', 'type': 'string', 'value': 'aiops-k8s-07'},
+       {'key': 'namespace', 'type': 'string', 'value': 'hipstershop'}],
+      dtype=object)}"
+7fbd38753e62451a1d5f2802b9fcfe60,32da6e3d303a92f6,1.0,hipstershop.ProductCatalogService/GetProduct,"[{'refType': 'CHILD_OF', 'spanID': 'c5a9f8bdc26086fb', 'traceID': '7fbd38753e62451a1d5f2802b9fcfe60'}]",1745942430091326,1745942430091,10930,"[{'key': 'rpc.system', 'type': 'string', 'value': 'grpc'}
+ {'key': 'rpc.service', 'type': 'string', 'value': 'hipstershop.ProductCatalogService'}
+ {'key': 'rpc.method', 'type': 'string', 'value': 'GetProduct'}
+ {'key': 'net.peer.ip', 'type': 'string', 'value': '10.233.85.112'}
+ {'key': 'net.peer.port', 'type': 'string', 'value': '35502'}
+ {'key': 'instrumentation.name', 'type': 'string', 'value': 'go.opentelemetry.io/otel/sdk/tracer'}
+ {'key': 'status.code', 'type': 'int64', 'value': '0'}
+ {'key': 'status.message', 'type': 'string', 'value': ''}
+ {'key': 'span.kind', 'type': 'string', 'value': 'server'}
+ {'key': 'internal.span.format', 'type': 'string', 'value': 'jaeger'}]","[{'fields': array([{'key': 'message.type', 'type': 'string', 'value': 'RECEIVED'},
+        {'key': 'message.id', 'type': 'int64', 'value': '1'},
+        {'key': 'message.uncompressed_size', 'type': 'int64', 'value': '12'},
+        {'key': 'name', 'type': 'string', 'value': 'message'}],
+       dtype=object), 'timestamp': 1748966430091340}
+ {'fields': array([{'key': 'message.type', 'type': 'string', 'value': 'SENT'},
+        {'key': 'message.id', 'type': 'int64', 'value': '1'},
+        {'key': 'message.uncompressed_size', 'type': 'int64', 'value': '161'},
+        {'key': 'name', 'type': 'string', 'value': 'message'}],
+       dtype=object), 'timestamp': 1748966430102251}                          ]","{'serviceName': 'productcatalogservice', 'tags': array([{'key': 'exporter', 'type': 'string', 'value': 'jaeger'},
+       {'key': 'float', 'type': 'float64', 'value': '312.23'},
+       {'key': 'ip', 'type': 'string', 'value': '10.233.74.82'},
+       {'key': 'name', 'type': 'string', 'value': 'productcatalogservice-2'},
+       {'key': 'node_name', 'type': 'string', 'value': 'aiops-k8s-05'},
+       {'key': 'namespace', 'type': 'string', 'value': 'hipstershop'}],
+      dtype=object)}"
